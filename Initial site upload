@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Covil Photography | Creative Illustrations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="IMG_0230.jpg" alt="Covil Photography Logo" class="logo" />
+    <h1>Capturing Real Moments — Covil Photography</h1>
+  </header>
+
+  <section class="hero">
+    <img src="IMG_3794.jpg" alt="Butterfly photograph" />
+  </section>
+
+  <section class="gallery">
+    <h2>Featured Work</h2>
+    <div class="images">
+      <img src="IMG_3794.jpg" alt="Butterfly close-up" />
+      <img src="IMG_0704.JPG" alt="Moon photo" />
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Wedding Shoot — 3 hrs — $400</li>
+      <li>Automobile — 2 hrs — $70</li>
+      <li>Baby Package — 1.5 hrs — $300</li>
+      <li>Brand Advertising/Modeling — 1.5 hrs — $80</li>
+      <li>Child Photography (Toddler–10) — 1.5 hrs — $100</li>
+      <li>Divorce Shoot — 30 mins — $65</li>
+      <li>Events — Variable</li>
+      <li>Group Photos — 1.5 hrs — $150</li>
+      <li>Modeling (established models) — 2 hrs — $80</li>
+      <li>Nude/Lingerie — 1.5 hrs — $150</li>
+      <li>Portfolio Builder — 30 mins — $55</li>
+      <li>Professional Headshots — 30 mins — $75</li>
+    </ul>
+  </section>
+
+  <section class="booking">
+    <a href="https://square.site/book/LHQY5ZWKJ4RMV/covil-photography?fbclid=IwY2xjawNOSK1leHRuA2FlbQIxMAABHmv6DLgEqVRuWdw5MTt6Hs35ZvbDmdvCuR6L9OSh0SJKoTt5NUAWdUVqWQxo_aem_uhE6rqSP1TTIPILLlfT_Vw"
+       target="_blank" class="book-btn">Book Now</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Covil Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  text-align: center;
+}
+header {
+  padding: 2rem 1rem;
+}
+.logo {
+  width: 120px;
+  border-radius: 50%;
+}
+.hero img {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+  border-bottom: 2px solid #333;
+}
+.gallery {
+  padding: 2rem 1rem;
+}
+.gallery .images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+.services {
+  background-color: #181818;
+  padding: 2rem;
+}
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+.services li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #333;
+}
+.book-btn {
+  display: inline-block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #00b894;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.book-btn:hover {
+  background-color: #019875;
+}
+footer {
+  background-color: #0e0e0e;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
